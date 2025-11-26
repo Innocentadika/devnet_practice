@@ -25,6 +25,8 @@ def json_search(key, input_object):
 
     return ret_val
 
+main_err = json_search("issueSummary", data)
+description_err = json_search("errorDescription", data)
 
 # Example usage (will depend on your test_data content)
-print(json_search("issueSummary", data))
+print (f"Issue: \n {main_err}\n\nDevice Description:\n{description_err}")
