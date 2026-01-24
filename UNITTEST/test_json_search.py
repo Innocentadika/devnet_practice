@@ -1,6 +1,6 @@
 import unittest
-from recursive_json_search import *
-from test_data import *
+from UNITTEST.recursive_json_search import *
+from UNITTEST.test_data import *
 
 class json_search_test(unittest.TestCase):
  '''test module to test search function in `recursive_json_search.py`'''
